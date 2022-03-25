@@ -3,12 +3,14 @@ const app = express();
 const cors = require('cors');
 
 const cats = [
-    {id: 1, name: 'Zelda', age: 3},
-    {id: 2, name: 'TigerLily', age: 10},
-    {id: 3, name: 'Rumble', age: 12}
+    {id: 1, name: 'Patch', age: 2},
+    {id: 2, name: 'Sheikha', age: 1},
+    {id: 3, name: 'Mimi', age: 1}
 ]
 
 app.use(cors());
+
+let body;
 
 app.get('/', (req, res) => {
     res.send('Let\'s get these cats!');
