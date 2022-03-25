@@ -17,4 +17,4 @@ a live demonstration of your API's functionality: you could demonstrate using cu
 There will be open Q&A after each presentation
 
 ## Final
-![final.png][Final image of patchat express]
+![Final image of patchat express](final.png "final image")
