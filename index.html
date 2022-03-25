@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patchcat Express</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
 </head>
 <body>
     <h1>See some of Trina and Yusra's Cats!</h1>
-    <button id="msgBtn">Click for secret message!</button>
-    <button id="catBtn">Click for cats!</button>
+    <button id="msgBtn" onclick="getMessage()">Click for secret message!</button>
+    <button id="patchBtn" onclick="getCats('/cats/1')">Click for Patch!</button>
+    <button id="sheikhaBtn" onclick="getCats('/cats/2')">Click for Sheikha!</button>
+    <button id="mimiBtn" onclick="getCats('/cats/3')">Click for Mimi!</button>
+    <h3 id="message"></h3>
     <section id="cats">
-        <h3>Cats</h3>
+        <h4 id="cat"></h4>
         <ul>
             
         </ul>

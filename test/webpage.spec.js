@@ -1,13 +1,9 @@
 const request = require('supertest');
-const app = require('../app');
+const app = require('../webpage');
 
-describe ('API Server', () => {
-    let api;
-    beforeAll(() => {
-        api = app.listen(5001, () => {
-            console.log('Test server running at port 5001!')
-        }) //listen in on another port to not confuse matters. test server listening at 5000 hardcoded. 
-    });
+describe ('web javascript', () => {
+    let web;
+    
     afterAll((done) => { //just built in, passing it thru. we arent actually sending thru an api to test
         api.close(done);
         console.log('Gracefully stopping test server') //gracefully - no artifacts jangling 

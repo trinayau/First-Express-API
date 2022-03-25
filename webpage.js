@@ -1,41 +1,38 @@
 // Setup 
-const msgBtn = document.querySelector("#msgBtn"); 
-const catBtn = document.getElementById("catBtn");
 const catsList = document.querySelector("ul");
 
 //Bind event listeners
-msgBtn.addEventListener('click', getMessage);
-catBtn.addEventListener('click', getCats);
 
 // **************************************
 
 //Cats flow - appends cat by index
-function getCats() {
-    fetch('http://localhost:3001/cats')
-        .then(r => r.json())
-        .then(appendCats)
-        .catch(console.warn)
-}
+async function getCats(endpoint) {
+    let url = 'http://localhost:3001';
+    let apiUrl = url + endpoint;
+    const response = await fetch(apiUrl);
+    const data = await response.json();
+        //.catch(console.warn)
+    const {id, name, age} = data
+    document.getElementById("cat").textContent = name;
 
-function appendCats() {
     
 }
 
 
-
 //Message flow - sends secret message
-function getMessage() {
-    fetch('http://localhost:3001')
-        .then(r => {console.log(r); r.json()})
-        .then(renderMessage)
+async function getMessage() {
+    let url = 'http://localhost:3001/';
+    const response = await fetch(url);
+    const data = await response.json();
         //.catch(console.warn)
-  
+    document.getElementById("message").textContent = data[0].text;
+    console.log(data);        
 }
 
 function renderMessage(data) {
+    
     console.log(data);
-    const msg = document.createElement('p');
-    msg.textContent = data.message;
+    msg.textContent = data;
     msg.style.color = 'pink';
     document.body.append(msg)
 }
