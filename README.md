@@ -1,6 +1,5 @@
 # Patchcat Express - Our First ExpressJS API
 ## Brief
-Working in pairs:
 
 Start work on your own API!
 
