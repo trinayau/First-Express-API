@@ -1,5 +1,3 @@
-// Setup 
-const catsList = document.querySelector("ul");
 
 //Bind event listeners
 
@@ -13,7 +11,8 @@ async function getCats(endpoint) {
     const data = await response.json();
         //.catch(console.warn)
     const {id, name, age} = data
-    document.getElementById("cat").textContent = name;
+    document.getElementById("cat").textContent = `Name: ${name}`;
+    document.getElementById("age").textContent = `Age: ${age}`
 
     
 }
