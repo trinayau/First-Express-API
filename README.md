@@ -1,4 +1,4 @@
-# First Express API
+# Patchcat Express - Our First ExpressJS API
 ## Exercises
 Working in pairs:
 
@@ -15,3 +15,6 @@ technologies / libraries used
 challenges and solutions
 a live demonstration of your API's functionality: you could demonstrate using curl, Postman, a custom client or a combination!
 There will be open Q&A after each presentation
+
+## Final
+![final.png][Final image of patchat express]
