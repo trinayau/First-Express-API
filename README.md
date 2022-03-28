@@ -1,6 +1,5 @@
 # Patchcat Express - Our First ExpressJS API
-## Exercises
-Working in pairs:
+## Brief
 
 Start work on your own API!
 
@@ -18,3 +17,8 @@ There will be open Q&A after each presentation
 
 ## Final
 ![Final image of patchat express](final.png "final image")
+
+## Reflections
+- We were asked whether there was functionality to show all cats, but we did not add this. We can consider adding this in the future
+- We need to write more testing
+- Need to add error handling 
