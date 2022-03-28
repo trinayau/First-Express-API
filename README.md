@@ -16,7 +16,8 @@ a live demonstration of your API's functionality: you could demonstrate using cu
 There will be open Q&A after each presentation
 
 ## Final
-![Final image of patchat express](final.png "final image")
+![Final image of patchcat express](final.png "final image")
+![Final presentation of patchat express](presentation.png "final presentation")
 
 ## Reflections
 - We were asked whether there was functionality to show all cats, but we did not add this. We can consider adding this in the future
