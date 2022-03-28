@@ -10,26 +10,29 @@
 
 </head>
 <body>
-    <section class="container">
+    <div class="container">
     <h1>🐈‍⬛ See some of Trina and Yusra's Cats!</h1>
     <button class="btn btn-light" id="msgBtn" onclick="getMessage()">Click for secret message!</button><br>
-    <button class="btn btn-light"id="patchBtn" onclick="getCats('/cats/1')">Click for Patch!</button><br>
-    <button class="btn btn-light" id="sheikhaBtn" onclick="getCats('/cats/2')">Click for Sheikha!</button><br>
-    <button class="btn btn-light" id="mimiBtn" onclick="getCats('/cats/3')">Click for Mimi!</button><br>
+    <button class="btn btn-light"id="patchBtn" onclick="getCats('/cats/1')">Click for Patch</button><br>
+    <button class="btn btn-light" id="sheikhaBtn" onclick="getCats('/cats/2')">Click for Sheikha</button><br>
+    <button class="btn btn-light" id="mimiBtn" onclick="getCats('/cats/3')">Click for Mimi</button><br>
+    <button class="btn btn-light" id="allCatsBtn" onclick="getAllCats()">Click for All Cats</button><br>
+   <button class="btn btn-light" id="clearData" onclick="clearCats()">Click to Clear Cats</button><br>
     <h3 id="message"></h3>
-    <section id="cats">
-        <div class="">
+    <div id="catSection">
             <div class="row">
                 <div class="col-6">
-        <h4 id="cat"></h4>
+        <h4 id="cat">
+           
+        </h4>
     </div>
-    <div class="col-6"><h4 id="age"></h4></div>
+    <div class="col-6"><h4 id="age"><ul></ul></h4></div>
     </div>
+</div>
+    <div id="allCatSection">
     </div>
-
-    </section>
-</section>
+</div>
 <p class="text-center">Open Source on <a href="https://github.com/trinayau/First-Express-API" target="_blank">Github</a> by Yusra and Trina</p>
-    <script src="webpage.js"></script>
+    <script defer src="webpage.js"></script>
 </body>
 </html>

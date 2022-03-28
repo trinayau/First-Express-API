@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const { json } = require('body-parser');
+const nodemon = require("nodemon");
 
 const cats = [
     {id: 1, name: 'Patch', age: 2},
@@ -33,6 +34,7 @@ app.get('/cats/:id', (req, res) => {
     const selectedCat = cats[catId];
     res.send(selectedCat);
 });
+
 
 module.exports = app;
 

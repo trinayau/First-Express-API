@@ -20,6 +20,10 @@ h3{
     font-weight: 700;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .container {
     width: 600px;
     text-align: center;
