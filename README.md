@@ -30,3 +30,8 @@ We decided to pair-code on this to enhance our learning experience.
 - We were asked whether there was functionality to show all cats, but we did not add this. We can consider adding this in the future
 - We need to write more tests for both the server and the webpage
 - Need to add error handling functionality to the API
+
+## Post-Exercise Work
+- Added button to display all cats
+- Added error handling- now browser alerts to error
+- Added button to clear all cats (not delete http request)
