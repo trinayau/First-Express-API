@@ -21,7 +21,7 @@ We decided to pair-code on this to enhance our learning experience.
 
 ## Final
 ### Patchcat Express Final Look
-![Final image of patchcat express](final.png "final image")
+![Final image of patchcat express](finalpic.png "final image")
 ### Patchcat Express Presentation
 [Link to PatchCat Express Presentation](https://docs.google.com/presentation/d/16G4xzuX6k1btGC5K-7NjUtK6CMyo-8niEMFFl6gMDvE/edit?usp=sharing "Google Slides of Patchcat Express")
 ![Final presentation of patchat express](presentation.png "final presentation")
